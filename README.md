@@ -8,7 +8,12 @@ Proyecto realizado con datos obtenidos del sitio "ProPublica" guardados localmen
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+[![email1](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/dd030c6571e4b1ff9c87fe7f0faa8cfe95b8f7ce/Tarea%201/resources/email1%20-%20readme.png)](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%201/resources/email1.png)
+[![email2](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%201/resources/email2%20-%20readme.png)](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%201/resources/email2.png)
+[![home](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%201/resources/Task%202%20Home%20-%20readme.png)](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%201/resources/Task%202%20Home.png )
+[![house](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%201/resources/Task%202%20House%20-%20readme.png)](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%201/resources/Task%202%20House.png)
+[![senators](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%201/resources/Task%202%20Senators%20-%20readme.png)](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%201/resources/Task%202%20Senators.png)
+
 
 ### 🔗 Link (https://nico.task1.com/)
 
@@ -21,7 +26,12 @@ Continuando con el proyecto anterior en esta tarea se hicieron calculos con dato
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+[![email1](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%202/Resources/email%20-%20readme.png)](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%202/Resources/email.png)
+[![home](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%202/Resources/Task%203%20Home%20-%20readme.png)](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%202/Resources/Task%203%20Home.png)
+[![house](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%202/Resources/Task%203%20House%20Attendance%20-%20readme.png)](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%202/Resources/Task%203%20House%20Attendance.png)
+[![house2](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%202/Resources/Task%203%20House%20Party%20Loyalty%20-%20readme.png)](https://github.com/nicolasmamone/ProyectoMindhubProPublica/blob/main/Tarea%202/Resources/Task%203%20House%20Party%20Loyalty.png?raw=true)
+[![senators](https://github.com/nicolasmamone/ProyectoMindhubProPublica/blob/main/Tarea%202/Resources/Task%203%20Senate%20Attendance%20-%20readme.png?raw=true)](https://github.com/nicolasmamone/ProyectoMindhubProPublica/blob/main/Tarea%202/Resources/Task%203%20Senate%20Attendance.png?raw=true)
+[![senators2](https://github.com/nicolasmamone/ProyectoMindhubProPublica/blob/main/Tarea%202/Resources/Task%203%20Senate%20Party%20Loyalty%20-%20readme.png?raw=true)](https://github.com/nicolasmamone/ProyectoMindhubProPublica/blob/main/Tarea%202/Resources/Task%203%20Senate%20Party%20Loyalty.png?raw=true)
 
 
 ### 🔗 Link (https://nico.task2.com/)
@@ -32,7 +42,7 @@ En la ultima tarea del proyecto se realizaron dos cambios. El primero fue obtene
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+[![email1](https://github.com/nicolasmamone/ProyectoMindhubProPublica/blob/main/Tarea%203/Recourses/email%20-%20readme.png?raw=true)](https://github.com/nicolasmamone/ProyectoMindhubProPublica/blob/main/Tarea%203/Recourses/email.png?raw=true)
 
 
 ### 🔗 Link (https://nico.task3.com/)
