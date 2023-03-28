@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senate Party Loyalty</title>
+    <!-- Bootstrap 4.3.1 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font awesome-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    <!-- css styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-1 ml-3">
+                <img src="img/logo1.png" id="logo1" alt="logo" ;>
+            </div>
+            <h1>Transparent Government in Fact</h1>
+            <div class="col-1 mr-3">
+                <a class="icon-mail" href="mailto:info@tgif.net"><i class="fa fa-envelope"></i> - info@tgif.net</a>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-dark bg-dark">
+        <ul class="nav nav-pills bg-dark">
+            <li class="nav-item ">
+                <a class="btn btn-secondary" href="home-page.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="btn btn-secondary dropdown-toggle ml-3" data-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="true" aria-expanded="false">Congress 113</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="senate-page.html">Senate</a>
+                    <a class="dropdown-item" href="house-page.html">House</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="btn btn-secondary dropdown-toggle ml-3" data-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="true" aria-expanded="false">Attendance</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="senate_attendance_page.html">Senate</a>
+                    <a class="dropdown-item" href="house_attendance_page.html">House</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="btn btn-secondary dropdown-toggle ml-3" data-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="true" aria-expanded="false">Party Loyalty</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="senate_party_loyalty_page.html">Senate</a>
+                    <a class="dropdown-item" href="house_party_loyalty_page.html">House</a>
+                </div>
+            </li>
+
+        </ul>
+    </nav>
+
+    <!--Table container-->
+    <section class="container-fluid overflow-hidden" id="app">
+
+        <div class="row m-3">
+            <div class="col-12 col-md-6 px-3">
+                <h2 class="text-center text-md-left">Party Loyalty</h2>
+                <p>Those who consider themselves to be strong partisans, strong Democrats and strong Republicans
+                    respectively, tend to be the most faithful in voting for their party's nominee for office and
+                    legislation that backs their party's agenda. </p>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <h2 class="text-center text-md-right">Senate at a glance</h2>
+                <table id="senate-glance" class="table table-hover m-3">
+                    <thead class="thead-dark">
+                        <th>Party</th>
+                        <th>Nro of Reps</th>
+                        <th>% Votes w/Party</th>
+                    </thead>
+                    <tbody>
+                        <tr v-for="elem in results.glance">
+                            <td v-if="elem[0] == undefined"> <span class="loader"></span></td>
+                            <td v-else>{{elem[0]}}</td>
+                            <td v-if="elem[1] == undefined"> <span class="loader"></span></td>
+                            <td v-else>{{elem[1]}}</td>
+                            <td v-if="elem[2] == undefined"> <span class="loader"></span></td>
+                            <td v-else>{{elem[2] + "%"}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h2 class="text-center mx-3">Least Loyal (Bottom 10% of Party)</h2>
+                <table class="table table-hover">
+                    <thead id="least_theader" class="thead-dark">
+                        <th>Name</th>
+                        <th>Number of Party Votes</th>
+                        <th>% Party</th>
+                    </thead>
+                    <tbody>
+                        <tr v-for="elem in results.least_loyal[0]">
+                            <td>{{elem.first_name}} {{elem.middle_name}} {{elem.last_name}}</td>
+                            <td>{{Math.round((elem.total_votes*elem.votes_with_party_pct)/100)}}</td>
+                            <td>{{elem.votes_with_party_pct + "%"}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-12 col-md-6">
+                <h2 class="text-center mx-3">Most Loyal (Top 10% of Party)</h2>
+                <table class="table table-hover">
+                    <thead id="most_theader" class="thead-dark">
+                        <th>Name</th>
+                        <th>Number of Party Votes</th>
+                        <th>% Party</th>
+                    </thead>
+                    <tbody>
+                        <tr v-for="elem in results.most_loyal[0]">
+                            <td>{{elem.first_name}} {{elem.middle_name}} {{elem.last_name}}</td>
+                            <td>{{Math.round((elem.total_votes*elem.votes_with_party_pct)/100)}}</td>
+                            <td>{{elem.votes_with_party_pct + "%"}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <footer class=" container-fluid bg-dark">
+        <div class="row justify-content-center align-items-center text-white text-center py-3">
+            © 2016 TGIF | All Rights Reserved
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script> var congress = "senate";</script>
+    <script src="js/statistic.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+#logo1{
+    width: inherit;
+    box-shadow: -4px 5px 10px #6c757d ;
+}
+
+.icon-mail{
+    color: #6c757d;
+}
+h1{
+    font-family: 'Gloock', serif;
+    text-decoration: underline rgb(68, 68, 68);
+    text-shadow: -4px 5px 10px #6c757d;
+}
