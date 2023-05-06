@@ -15,7 +15,7 @@ Proyecto realizado con datos obtenidos del sitio "ProPublica" guardados localmen
 [![senators](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%201/resources/Task%202%20Senators%20-%20readme.png)](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%201/resources/Task%202%20Senators.png)
 
 
-### 🔗 Link (https://nico.task1.com/)
+### 🔗 Link (https://nicolasmamone.github.io/ProyectoMindhubProPublica/Tarea%201/home-page.html/)
 
 ## Task 2
 ### Descripcion
@@ -34,7 +34,7 @@ Continuando con el proyecto anterior en esta tarea se hicieron calculos con dato
 [![senators2](https://github.com/nicolasmamone/ProyectoMindhubProPublica/blob/main/Tarea%202/Resources/Task%203%20Senate%20Party%20Loyalty%20-%20readme.png?raw=true)](https://github.com/nicolasmamone/ProyectoMindhubProPublica/blob/main/Tarea%202/Resources/Task%203%20Senate%20Party%20Loyalty.png?raw=true)
 
 
-### 🔗 Link (https://nico.task2.com/)
+### 🔗 Link (https://nicolasmamone.github.io/ProyectoMindhubProPublica/Tarea%202/home-page.html)
 
 ## Task 3
 ### Descripcion
@@ -45,7 +45,7 @@ En la ultima tarea del proyecto se realizaron dos cambios. El primero fue obtene
 [![email1](https://github.com/nicolasmamone/ProyectoMindhubProPublica/blob/main/Tarea%203/Recourses/email%20-%20readme.png?raw=true)](https://github.com/nicolasmamone/ProyectoMindhubProPublica/blob/main/Tarea%203/Recourses/email.png?raw=true)
 
 
-### 🔗 Link (https://nico.task3.com/)
+### 🔗 Link (https://nicolasmamone.github.io/ProyectoMindhubProPublica/Tarea%203/home-page.html)
 
 ## 🛠 Skills
 - HTML
