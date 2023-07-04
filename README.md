@@ -15,7 +15,7 @@ Proyecto realizado con datos obtenidos del sitio "ProPublica" guardados localmen
 [![senators](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%201/resources/Task%202%20Senators%20-%20readme.png)](https://raw.githubusercontent.com/nicolasmamone/ProyectoMindhubProPublica/main/Tarea%201/resources/Task%202%20Senators.png)
 
 
-### 🔗 Link (https://nicolasmamone.github.io/ProyectoMindhubProPublica/Tarea%201/home-page.html/)
+### 🔗 Link (https://nicolasmamone.github.io/ProyectoMindhubProPublica/Tarea%201/home-page.html)
 
 ## Task 2
 ### Descripcion
